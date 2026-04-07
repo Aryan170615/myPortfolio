@@ -1,3 +1,4 @@
+import AnimatedCursor from "react-animated-cursor";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -27,7 +28,17 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+         <AnimatedCursor
+        innerSize={6}
+        outerSize={40}
+        color="255,255,255"
+        outerAlpha={0.2}
+        innerScale={1}
+        outerScale={1.6}
+        trailingSpeed={8}
+      />
+      {children}</body>
     </html>
   );
 }
