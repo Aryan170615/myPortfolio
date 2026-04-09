@@ -1,7 +1,6 @@
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Container from "@/components/Container";
-import HeaderSection from "@/components/header-section";
 import Hero1 from "@/components/hero1";
 import Navbar from "@/components/Navbar";
 import Stack from "@/components/Stack";

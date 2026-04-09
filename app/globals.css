@@ -131,3 +131,16 @@
 * {
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
+:root {
+  --bg: #ffffff;
+  --text: #BDBDBD;
+  --border: #e5e5e5;
+  --card: #f9f9f9;
+}
+
+.dark {
+  --bg: #000000;
+  --text: #000000;
+  --border: #262626;
+  --card: #111111;
+}

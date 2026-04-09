@@ -7,23 +7,47 @@ export default function Work () {
       <div className="space-y-8">
 
         <div className="border border-neutral-800 rounded-xl p-6">
-          <h3 className="text-lg font-medium">Nirvado</h3>
+          <h3 className="text-lg font-medium">Second Brain</h3>
 
-          <p className="text-gray-400 text-sm mt-2">
-            Browser IDE using WebContainers — real Node.js
+          <p className="text-gray-400 mt-2">
+            Notes app where you can store important notes
           </p>
 
-          <ul className="text-gray-500 mt-4 space-y-2 text-sm">
-            <li>• Built full in-browser IDE</li>
-            <li>• Multi-framework support</li>
-            <li>• Integrated AI autocomplete</li>
+          <ul className="text-gray-500 mt-4 text-sm space-y-2 ">
+            <li>• Copy the link</li>
+            <li>• Add note to it</li>
+            <li>• Your note is saved</li>
           </ul>
 
           <div className="flex gap-2 mt-4 flex-wrap">
-            {["Next.js", "TypeScript", "PostgreSQL"].map((tag) => (
+            {["React", "JavaScript", "MongoDB"].map((tag) => (
               <span
                 key={tag}
-                className="px-2 py-1 text-xs border border-gray-700 rounded"
+                className="px-2 py-1  border border-gray-700 rounded"
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+        </div>
+        <div className="border border-neutral-800 rounded-xl p-6">
+          <h3 className="text-lg font-medium">Collaborative Draw</h3>
+
+          <p className="text-gray-400 mt-2">
+            Collaborative drawing app with real-time sync 
+          </p>
+
+          <ul className="text-gray-500 mt-4 space-y-2 text-sm">
+            <li>• Draw Shapes</li>
+            <li>• Real time collaboration</li>
+            <li>• Easy to use</li>
+          </ul>
+
+          <div className="flex gap-2 mt-4 flex-wrap">
+            {["Next.js", "TypeScript", "PostgreSQL", "Websockets"].map((tag) => (
+              <span
+                key={tag}
+                className="px-2 py-1 border border-gray-700 rounded"
               >
                 {tag}
               </span>
@@ -36,3 +60,4 @@ export default function Work () {
     </div>
   );
 };
+

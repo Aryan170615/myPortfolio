@@ -13,8 +13,8 @@ export default function Contact() {
 
       <div className="mt-10 text-sm text-gray-500 flex gap-6">
         <a href="https://github.com/Aryan170615" target="_blank" className="hover:text-white cursor-pointer">GitHub</a>
-        <a href="https://www.linkedin.com/in/aryan-bhalla-170615" target="_blank" className="hover:text-white cursor-pointer">LinkedIn</a>
-        <a href="https://x.com/aryan_bhalla" target="_blank" className="hover:text-white cursor-pointer">X</a>
+        <a href="https://www.linkedin.com/in/aryan-bhalla-8abb95325/" target="_blank" className="hover:text-white cursor-pointer">LinkedIn</a>
+        <a href="https://x.com/AryanRocks7/" target="_blank" className="hover:text-white cursor-pointer">X</a>
         <a href="mailto:bhallaaryan44@gmail.com" target="_blank" className="hover:text-white cursor-pointer">Email</a>
       </div>
 

@@ -30,7 +30,7 @@ export default function About() {
             ["College", "UIET, Chandigarh"],
             ["Based in", "Panchkula, India"],
             ["Currently", "Open to internships"],
-            ["Focus", "Full Stack & Systems"],
+            ["Focus", "Full Stack"],
           ].map(([k, v]) => (
             <div
               key={k}

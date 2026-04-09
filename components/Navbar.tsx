@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Navbar() {
   return (
@@ -16,14 +17,6 @@ export default function Navbar() {
         <Link href="/blogs" className="hover:text-white cursor-pointer">Blogs</Link>
         <Link href="/projects" className="hover:text-white cursor-pointer">Projects</Link>
         <Link href="/resume" className="hover:text-white cursor-pointer">Resume</Link>
-      </div>
-
-      {/* Right */}
-      <div className="flex items-center gap-4 text-gray-400">
-        <button >
-          <img width="18" height="18" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/moon-symbol.png"       alt="moon-symbol"/>
-        </button>
-        
       </div>
 
     </div>
