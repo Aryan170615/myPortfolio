@@ -3,14 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "npx ng serve",
-    "build": "npx ng build",
-    "watch": "npx ng build --watch --configuration development",
-    "test": "npx ng test",
-    "test:ci": "npx ng test --no-watch --no-progress --code-coverage --browsers=ChromeHeadless"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
   },
   "dependencies": {
-    "@angular/cli": "^21.2.7",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^1.7.0",

@@ -23,7 +23,7 @@ export default function Work () {
             {["React", "JavaScript", "MongoDB"].map((tag) => (
               <span
                 key={tag}
-                className="px-2 py-1  border border-gray-700 rounded"
+                className="px-2 py-1 border border-gray-700 rounded hover:bg-white hover:text-black transition"
               >
                 {tag}
               </span>
@@ -47,7 +47,7 @@ export default function Work () {
             {["Next.js", "TypeScript", "PostgreSQL", "Websockets"].map((tag) => (
               <span
                 key={tag}
-                className="px-2 py-1 border border-gray-700 rounded"
+                className="px-2 py-1 border border-gray-700 rounded hover:bg-white hover:text-black transition"
               >
                 {tag}
               </span>
